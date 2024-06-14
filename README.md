@@ -145,7 +145,7 @@ improvements. The following metrics are included:
 We never collect
 
 - IP Addresses
-- Resource Names
+- Resource Namesgit
 
 Telemetry can be disabled entirely by setting the `DISABLE_TELEMETRY` environment variable on the command line.
 

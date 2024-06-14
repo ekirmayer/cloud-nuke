@@ -117,6 +117,7 @@ type Config struct {
 	VPCLatticeServiceNetwork        ResourceType               `yaml:"VPCLatticeServiceNetwork"`
 	VPCLatticeService               ResourceType               `yaml:"VPCLatticeService"`
 	VPCLatticeTargetGroup           ResourceType               `yaml:"VPCLatticeTargetGroup"`
+	WAFV2WebAcl 					ResourceType               `yaml:"WAFV2WebAcl"`
 }
 
 func (c *Config) addTimeAfterFilter(timeFilter *time.Time, fieldName string) {

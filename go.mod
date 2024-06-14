@@ -3,7 +3,7 @@ module github.com/gruntwork-io/cloud-nuke
 go 1.21
 
 require (
-	github.com/aws/aws-sdk-go v1.49.13
+	github.com/aws/aws-sdk-go v1.54.1
 	github.com/aws/aws-sdk-go-v2 v1.24.0
 	github.com/charmbracelet/lipgloss v0.6.0
 	github.com/go-errors/errors v1.4.2

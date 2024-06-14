@@ -146,6 +146,7 @@ func getRegisteredRegionalResources() []AwsResource {
 		&resources.VPCLatticeServiceNetwork{},
 		&resources.VPCLatticeService{},
 		&resources.VPCLatticeTargetGroup{},
+		&resources.WAFV2WebAcl{},
 	}
 }
 
